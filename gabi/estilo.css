@@ -1,0 +1,816 @@
+.cabecalho {
+	text-align: center;
+	font-size: 0.6rem;
+	font-size: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.23em;
+	color: #f1af09;
+	background-color: black;
+}
+
+.cabecalho_logo {
+	padding: 1.5em 0;
+	width: 45%;
+}
+
+.cabecalho_menu {
+	display: flex;
+	justify-content: space-everly;
+	flex-wrap: wrap;
+	background-color: #272B3A87;
+}
+
+.cabecalho_item-menu {
+	display: inline-block;
+}
+
+.cabecalho_item-menu a {
+	display: inline-block;
+	padding: 1.86em 1.42em;
+}
+
+@media (min-width: 640px) {
+	.cabecalho {
+		padding: 0 5%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.cabecalho_logo {
+		padding: 2.5em 0;
+	}
+
+	.cabecalho_menu {
+		background-color: transparent;
+	}
+
+	.cabecalho_item-menu: hover{
+		border-radius: 6px;
+		background-color: #f1af09;
+	}
+
+	.cont-com_fundo {
+		width: 100%;
+		height: 25rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+
+	.imagem-de_fundo {
+		display: flex;	
+		align-items: flex-start;
+		justify-content: center;	
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url(moda.jpg);
+		image-rendering: optimizeQuality;
+		width: 35rem;
+		height: 20rem;
+		background-color: red;
+		border-radius: 20px;
+		margin-top: 2em;
+		flex-direction: column;
+		padding-left: 35px;
+	}
+
+	.imagem-de_fundo a {
+		color: black;
+		border: solid;
+		width: 20%;
+		height: 15%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: monospace;
+		font-size: 20px;
+		border-radius: 5px;
+		opacity: 40%;
+	}
+
+	.imagem-de_fundo h3 {
+		color: black;
+		font-size: 20px;
+		font-family: monospace;	
+		opacity: 40%;
+	}
+
+	.imagem-de_fundo h1 {
+		color: black;
+		font-size: 50px;
+		font-family: monospace;
+		opacity: 40%;	
+	}
+
+	.btns_corpo {
+		width: 100%;
+		height: 30%;
+		margin-top: 2em;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		color: black;
+		font-size: 13px;
+	}
+
+	.img_corpo {
+		width: 100%;
+		height: 250px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;	
+	}
+
+	.img_corpo h1 {
+		color: white;
+		font-family: cursive;
+		font-size: 20px;
+		margin-top: 20%;
+	}
+
+	.img_corpo a {
+		color: white;
+		border: solid;
+		padding: 0  2px;
+		height: 15%;
+		font-family: cursive;
+		font-size: 25px;
+		border-radius: 5px;
+		margin-top: 10px;
+	}
+
+	.img_corpo_masculina {
+		width: 20%;
+		height: 77%;
+		background-color: blue;	
+		background-image: url(img_masculina.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.img_corpo_feminina {
+		width: 30%;
+		height: 78%;
+		background-color: blue;
+		background-image: url(img_feminina.webp);
+		background-size: cover;	
+		background-repeat: no-repeat;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.img_corpo_infantil {
+		width: 20%;
+		height: 78%;
+		background-color: green;
+		background-image: url(img_infantil.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+
+	}
+
+	.titulo_corpo2 {
+		height: 50px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 4%;
+	}
+
+	.titulo_corpo2 h1 {
+		color: black;
+		font-size: 35px;
+		font-family: cursive;
+		border-bottom: solid;
+		border-bottom-width: 2px;
+	}
+
+	.produtos_corpo {
+		width: 100%;
+		height: 300px;
+		display: flex;
+		align-items: center; 
+		justify-content: center;
+		margin-top: 4%;	
+	}
+
+	.produtos_corpo h1 {
+		color: black;
+		font-size: 17px;
+		font-family: cursive;
+		margin-top: 15px;
+	}
+
+	.produtos_corpo h2 {
+		color: black;
+		font-size: 18px;
+		font-family: cursive;
+	}
+
+	.produto1 {
+		width: 33%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;		
+	}
+
+	.produto1 img {
+		width: 80%;
+		height: 60%;
+		border-radius: 15px;
+	}
+
+	.produto2 {
+		width: 33%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.produto2 img {
+		width: 80%;
+		height: 60%;
+		border-radius: 15px;
+	}
+
+	.produto3 {
+		width: 33%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.produto3 img {
+		width: 80%;
+		height: 60%;
+		border-radius: 15px;
+	}
+
+	.rodape {
+		width: 100%;
+		height: 150px;
+		background-color: black;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.logo_rodape {
+		width: 25%;
+		height: 90%;
+	}
+
+	.logo_rodape img {
+		width: 80%;
+		height: 80%;
+	}
+
+	.localizacao {
+		width: 50%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.localizacao h1 {
+		color: yellow;
+		font-family: cursive;
+		font-size: 15px;
+	}
+
+@media (min-width: 770px) {
+
+	.cabecalho {
+		height: 100px;
+	}
+
+	.cabecalho_item-menu--matricular {
+		margin-left: 1em;
+		border-radius: 6px;
+		background-color: white;
+	}
+
+	.cabecalho_item-menu--matricular a {
+		padding: 1.8em 3.5em;
+		color: black;
+	}
+	.cabecalho_item-menu--matricular: hover{
+		background-color: #ffffff;
+		color: white;
+	}
+
+.imagem-de_fundo {
+		display: flex;	
+		align-items: flex-start;
+		justify-content: center;	
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url(moda.jpg);
+		image-rendering: optimizeQuality;
+		width: 40rem;
+		height: 20rem;
+		background-color: red;
+		border-radius: 20px;
+		margin-top: 1em;
+		flex-direction: column;
+		padding-left: 35px;
+	}
+
+	.imagem-de_fundo a {
+		color: black;
+		border: solid;
+		width: 20%;
+		height: 15%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: monospace;
+		font-size: 20px;
+		border-radius: 5px;
+	}
+
+	.imagem-de_fundo h3 {
+		color: black;
+		font-size: 20px;
+		font-family: monospace;	
+	}
+
+	.imagem-de_fundo h1 {
+		color: black;
+		font-size: 50px;
+		font-family: monospace;	
+	}
+
+	.btns_corpo {
+		width: 100%;
+		height: 30%;
+		margin-top: 3px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		color: black;
+	}
+
+	.img_corpo {
+		width: 100%;
+		height: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;	
+	}
+
+	.img_corpo h1 {
+		color: white;
+		font-family: cursive;
+		font-size: 25px;
+		margin-top: 45px;
+	}
+
+	.img_corpo a {
+		color: white;
+		border: solid;
+		padding: 0  2px;
+		height: 15%;
+		font-family: cursive;
+		font-size: 25px;
+		border-radius: 5px;
+		margin-top: 10px;
+	}
+
+	.img_corpo_masculina {
+		width: 20%;
+		height: 70%;
+		background-color: blue;	
+		background-image: url(img_masculina.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.img_corpo_feminina {
+		width: 20%;
+		height: 70%;
+		background-color: blue;
+		background-image: url(img_feminina.webp);
+		background-size: cover;	
+		background-repeat: no-repeat;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.img_corpo_infantil {
+		width: 20%;
+		height: 70%;
+		background-color: green;
+		background-image: url(img_infantil.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+
+	}
+
+	.titulo_corpo2 {
+		height: 50px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 4%;
+	}
+
+	.titulo_corpo2 h1 {
+		color: black;
+		font-size: 40px;
+		font-family: cursive;
+		border-bottom: solid;
+		border-bottom-width: 2px;
+	}
+
+	.produtos_corpo {
+		width: 100%;
+		height: 300px;
+		display: flex;
+		align-items: center; 
+		justify-content: center;
+		margin-top: 4%;	
+	}
+
+	.produtos_corpo h1 {
+		color: black;
+		font-size: 20px;
+		font-family: cursive;
+		margin-top: 15px;
+	}
+
+	.produtos_corpo h2 {
+		color: black;
+		font-size: 20px;
+		font-family: cursive;
+	}
+
+	.produto1 {
+		width: 33%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;		
+	}
+
+	.produto1 img {
+		width: 65%;
+		height: 60%;
+		border-radius: 15px;
+	}
+
+	.produto2 {
+		width: 33%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.produto2 img {
+		width: 65%;
+		height: 60%;
+		border-radius: 15px;
+	}
+
+	.produto3 {
+		width: 33%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.produto3 img {
+		width: 65%;
+		height: 60%;
+		border-radius: 15px;
+	}
+
+	.rodape {
+		width: 100%;
+		height: 100px;
+		background-color: black;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 20px;
+	}
+
+	.logo_rodape {
+		width: 25%;
+		height: 90%;
+	}
+
+	.logo_rodape img {
+		width: 70%;
+		height: 100%;
+	}
+
+	.localizacao {
+		width: 50%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.localizacao h1 {
+		color: white;
+		font-family: cursive;
+		font-size: 12px;
+	}
+
+}
+
+@media (min-width: 1066px) {
+
+	.cabecalho_item-menu--matricular {
+		margin-left: 1.42em;
+		border-radius: 6px;
+		background-color: #E93D50;
+	}
+
+	.cabecalho_item-menu--matricular a {
+		padding: 1.8em 3.5em;
+	}
+	.cabecalho_item-menu--matricular:hover{
+		background-color: #f1af09;
+		color: #E93D50;
+	}
+
+.imagem-de_fundo {
+		display: flex;	
+		align-items: flex-start;
+		justify-content: center;	
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url(moda.jpg);
+		image-rendering: optimizeQuality;
+		width: 50rem;
+		height: 25rem;
+		background-color: red;
+		border-radius: 20px;
+		margin-top: 2em;
+		flex-direction: column;
+		padding-left: 35px;
+	}
+
+	.imagem-de_fundo a {
+		color: black;
+		border: solid;
+		width: 20%;
+		height: 15%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: monospace;
+		font-size: 20px;
+		border-radius: 5px;
+	}
+
+	.imagem-de_fundo h3 {
+		color: black;
+		font-size: 20px;
+		font-family: monospace;	
+	}
+
+	.imagem-de_fundo h1 {
+		color: black;
+		font-size: 45px;
+		font-family: monospace;	
+	}
+
+	.btns_corpo {
+		width: 100%;
+		height: 30%;
+		margin-top: 5em;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		color: black;
+	}
+
+	.img_corpo {
+		width: 100%;
+		height: 400px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.img_corpo h1 {
+		color: white;
+		font-family: cursive;
+		font-size: 40px;
+		margin-top: 45px;
+	}
+
+	.img_corpo a {
+		color: white;
+		border: solid;
+		padding: 0  2px;
+		height: 13%;
+		font-family: cursive;
+		font-size: 40px;
+		border-radius: 5px;
+		margin-top: 10px;
+	}
+
+	.img_corpo_masculina {
+		width: 20%;
+		height: 80%;
+		background-color: blue;	
+		background-image: url(img_masculina.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.img_corpo_feminina {
+		width: 25%;
+		height: 80%;
+		background-color: blue;
+		background-image: url(img_feminina.webp);
+		background-size: cover;	
+		background-repeat: no-repeat;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.img_corpo_infantil {
+		width: 20%;
+		height: 80%;
+		background-color: green;
+		background-image: url(img_infantil.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+
+	}
+
+	.titulo_corpo2 {
+		height: 50px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 2%;
+	}
+
+	.titulo_corpo2 h1 {
+		color: black;
+		font-size: 50px;
+		font-family: cursive;
+		border-bottom: solid;
+		border-bottom-width: 2px;
+	}
+
+	.produtos_corpo {
+		width: 100%;
+		height: 450px;
+		display: flex;
+		align-items: center; 
+		justify-content: center;
+		margin-top: 4%;	
+	}
+
+	.produtos_corpo h1 {
+		color: black;
+		font-size: 30px;
+		font-family: cursive;
+		margin-top: 15px;
+	}
+
+	.produtos_corpo h2 {
+		color: black;
+		font-size: 25px;
+		font-family: cursive;
+	}
+
+	.produto1 {
+		width: 33%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;		
+	}
+
+	.produto1 img {
+		width: 60%;
+		height: 60%;
+		border-radius: 15px;
+	}
+
+	.produto2 {
+		width: 33%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.produto2 img {
+		width: 60%;
+		height: 60%;
+		border-radius: 15px;
+	}
+
+	.produto3 {
+		width: 33%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.produto3 img {
+		width: 60%;
+		height: 60%;
+		border-radius: 15px;
+	}
+
+	.rodape {
+		width: 100%;
+		height: 150px;
+		background-color: black;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 20px;
+	}
+
+	.logo_rodape {
+		width: 25%;
+		height: 90%;
+	}
+
+	.logo_rodape img {
+		width: 80%;
+		height: 100%;
+	}
+
+	.localizacao {
+		width: 50%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.localizacao h1 {
+		color: #f1af09;
+		font-family: cursive;
+		font-size: 25px;
+	}
+
+}
+
+}
